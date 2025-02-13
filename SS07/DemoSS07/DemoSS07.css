@@ -1,0 +1,91 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #333;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box-model{
+
+    background-color: yellow;
+    /* Tinh chỉnh content */
+    width: 200px;
+    height: 200px;
+    /* Tinh chỉnh padding */
+    padding: 50px;
+    padding-left: 30px;
+    padding-top: 50px;
+    /* Tinh chỉnh viền */
+    border: 20px solid #000;
+    border-left: 10px solid brown;
+    border-right: 10px solid brown;
+    /* Tinh chỉnh margin */
+    margin: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    border-radius: 20px;
+
+    box-sizing: border-box;
+}
+.relative-section{
+    margin-top: 100px;
+}
+.relative-section h3{
+    margin-bottom: 50px;
+}
+.relative-section span{
+    padding: 40px;
+    border: 10px solid #000;
+    background-color: yellow;
+    margin-right: 20px;
+}
+.absolute-section{
+    margin-top: 100px;
+}
+.absolute-section h3{
+    margin-bottom: 50px;    
+}
+.absolute-section span{
+    padding: 40px;
+    border: 10px solid #000;
+    background-color: orangered;
+    margin-right: 20px;
+}
+section{
+    margin-left: 30px;
+}
+.relative-section span:nth-of-type(2){
+    position: relative;
+     /* top | bottom (theo chiều dọc)
+    left |right (theo chiều ngang) */
+    bottom: 100px;
+    left: 100px;
+}
+.absolute-section span:nth-of-type(2){
+    position: absolute;
+     /* top | bottom (theo chiều dọc)
+    left |right (theo chiều ngang) */
+    bottom: 100px;
+    right: 100px;
+}
+.block{
+    width: 170px;
+    height: 340px;
+    border: 5px solid #000;
+    margin-top: 150px;
+    margin-left: 50px;
+    padding: 40px;
+    background-color: chocolate;
+    font-size: 20px;
+    position: relative;
+}
+.block span{
+    background-color: red;
+    color: aliceblue;
+    font-weight: bolder;
+    position: absolute;
+    top: -19px; 
+    left: 140px;
+}
