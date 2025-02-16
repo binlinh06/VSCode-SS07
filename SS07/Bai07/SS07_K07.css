@@ -1,0 +1,65 @@
+* {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #212529;
+    padding: 0px;
+    margin: 0px;
+}
+
+.register h3 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.register {
+    position: relative;
+    padding-top: 30px;
+    padding: 25px;
+    background-color: white;
+    width: 500px;
+    height: 300px;
+}
+
+input {
+  width: 97%;
+  padding: 7px;
+}
+
+textarea {
+    width: 97%;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.dong {
+    color: white;
+    background-color: #6c757d;
+    border: none;
+    margin-left: 249px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.gui {
+    color: white;
+    background-color: #0d6efd;
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+button{
+    margin-top: 15px;
+}
+
+i {
+    position: absolute;
+    font-size: 25px;
+    top: 25px;
+    left: 496px;
+}
+
+b {
+    border-top: 1px solid gray;
+    padding-top: 30px;
+}
